@@ -1,0 +1,83 @@
+Django: is module for web development
+=========================================
+Django : is framwork to develop the ui
+
+How to setup the environment?
+	pip install django 
+	
+Editor
+	VSCode 
+			https://code.visualstudio.com/download
+	Eclipse
+	Spyder
+	PyCharm
+	Atom
+	Subline
+	etc.. 
+
+Create DJango Project
+=========================
+python "C:\Python27\Scripts\django-admin.py" startproject ds  
+	-- here ds is name of the project
+
+
+Structure of the project
+===========================
+ds
+	ds
+		__init__.py
+		settings.py
+		urls.py
+		wsgi.py		
+	manage.py			1.
+
+
+Build and run the project
+=================================
+cd ds		--change directory (go inside project folder)
+python manage.py runserver 
+
+--stop the project
+ctlr+c  : cancel or stop the project
+
+Create Aplication inside Project
+======================================
+python "C:\Python27\Scripts\django-admin.py" startapp visualization  
+
+Project vs Application 
+	Project	: is collection of application 
+		: project also known suite 
+		: example - ms office 
+	Application  : building block of task for respective business objective
+		: example - excel, powerpoint  etc.
+
+
+App Structure
+====================
+views.py
+		def index(request):
+			return HttpResponse("Hey, this is first app ")
+models.py
+admin.py
+app.py...
+
+Next Step:
+	- create a file "urls.py" in application 
+	- Add the application name in settings.py file 
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
